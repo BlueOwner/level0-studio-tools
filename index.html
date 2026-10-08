@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Level0 Studio Tools</title>
+<meta name="description" content="Level0 Studio Tools is a private, single-user publishing and analytics tool for the owner's own YouTube channel. It uses YouTube API Services.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="inner">
+  <a class="name" href="./">Level0 Studio Tools</a>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+</div></header>
+<main>
+<h1>Level0 Studio Tools</h1>
+<p class="meta">A private, single-user tool for managing one YouTube channel.<br><span class="ja">1つの YouTube チャンネルを運営するための、個人専用の道具です。</span></p>
+
+<div class="notice">
+  <strong>This tool uses YouTube API Services.</strong>
+  By using Level0 Studio Tools, users agree to be bound by the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+  Please also see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>,
+  our <a href="privacy.html">Privacy Policy</a> and our <a href="terms.html">Terms of Use</a>.<br>
+  <span class="ja">この道具は YouTube API サービスを使用しています。利用者は YouTube 利用規約に拘束されることに同意したものとみなされます。</span>
+</div>
+
+<h2>What it is</h2>
+<p>Level0 Studio Tools is an internal tool used by one person: the operator of the YouTube channel
+<a href="https://www.youtube.com/@level0_">@level0_</a> (an anime commentary channel).
+It runs only on the channel owner's own computer and works only with the owner's own channel.
+It is not offered to the public, and it never asks anyone else to sign in.</p>
+<p class="ja">YouTube チャンネル @level0_（アニメ解説のチャンネル）の運営者1人だけが、自分の PC で、自分のチャンネルのためだけに使う社内向けの道具です。一般には公開しておらず、他の人にログインを求めることはありません。</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Uploads videos the owner made, and schedules their publication (<code>videos.insert</code>, <code>videos.update</code>).</li>
+  <li>Sets thumbnails (<code>thumbnails.set</code>).</li>
+  <li>Updates titles, descriptions and chapters of the owner's videos (<code>videos.update</code>).</li>
+  <li>Adds captions to the owner's videos (<code>captions</code>).</li>
+  <li>Manages the owner's playlists (<code>playlists</code>, <code>playlistItems</code>).</li>
+  <li>Reads the owner's own channel and video status (<code>channels.list</code>, <code>playlistItems.list</code>, <code>videos.list</code>).</li>
+  <li>Reads the owner's own channel analytics, such as audience retention, traffic sources and search terms (YouTube Analytics API).</li>
+</ul>
+<p class="ja">自作動画のアップロードと予約公開、サムネイルの設定、題名・概要欄・チャプターの更新、字幕の追加、再生リストの管理、自分のチャンネルの動画の状態の読み取り、YouTube Analytics API による自分のチャンネルの分析を行います。</p>
+
+<h2>How access works</h2>
+<ul>
+  <li>Sign-in uses Google OAuth 2.0, with the channel owner's own Google account only.</li>
+  <li>Requested scopes: <code>youtube.upload</code>, <code>youtube.force-ssl</code>, <code>youtube.readonly</code>, <code>yt-analytics.readonly</code>.</li>
+  <li>The OAuth tokens are stored only on the owner's computer and are never sent to any other server.</li>
+  <li>There is no server, no public website feature, no advertising and no cookies.</li>
+</ul>
+<p class="ja">認証は OAuth 2.0 で、持ち主自身の Google アカウントだけを使います。許可の情報は持ち主の PC の中にだけ保存し、外部のサーバーへは送りません。サーバー・広告・Cookie はありません。</p>
+
+<h2>Contact</h2>
+<p>Questions, complaints or data deletion requests: <a href="mailto:coooooooooooooooooooooooooogle@gmail.com">coooooooooooooooooooooooooogle@gmail.com</a></p>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+  <p>Level0 Studio Tools is an independent tool and is not affiliated with or endorsed by YouTube or Google.</p>
+</footer>
+</main>
+</body>
+</html>
