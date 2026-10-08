@@ -33,7 +33,7 @@ a { color: var(--accent); }
 .ja { color: var(--muted); font-size: 0.94em; }
 .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
 .notice {
-  background: var(--note-bg); border: 1px solid var(--line); border-left: 4px solid #c4302b;
+  background: var(--note-bg); border: 1px solid var(--line);
   padding: 14px 16px; border-radius: 6px; margin: 20px 0;
 }
 .notice strong { display: block; margin-bottom: 4px; }
